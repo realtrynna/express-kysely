@@ -5,3 +5,8 @@ import { LogTable } from "../tables/log.table";
  * Dto를 inteface로 만들어 Table 클래스를 확장 => 코드 재사용성
  */
 export interface CreateLogDto extends Pick<LogTable, "idx"> {}
+
+
+/**
+ * 클래스로 만들어야 할 건 없지 않을까.
+ */
